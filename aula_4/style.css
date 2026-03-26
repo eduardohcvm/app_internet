@@ -1,0 +1,81 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  /* ESTRUTURA */
+  header, main, footer {
+    padding: 16px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  nav a {
+    color: #005fcc;
+    text-decoration: none;
+  }
+  
+  /* FOCO VISÍVEL */
+  a:focus, button:focus, input:focus {
+    outline: 3px solid #ff9900;
+  }
+  
+  /* FORMULÁRIO */
+  .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+    background: #005fcc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #003f99;
+  }
+  
+  /* ERROS */
+  .erro {
+    color: red;
+    display: none;
+    font-size: 14px;
+  }
+  
+  /* RESPONSIVIDADE */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    body {
+      font-size: 16px;
+    }
+  }

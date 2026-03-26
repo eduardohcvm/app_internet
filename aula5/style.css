@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #fff;
+}
+
+/* HEADER */
+.header {
+    background: #020617;
+    padding: 15px 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+}
+
+/* BOTÃO */
+.btn {
+    background: #38bdf8;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 500px;
+
+}
+
+.hero h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.sobre {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
